@@ -33,7 +33,16 @@ https://www.egiftsbazaar.com/home/index.html
 </div><br/>
 
 <b>Áreas do Site</b><br/>
-Essa parte só poderá ser concluída após o término do projeto, visto que contém prints e descrições de cada área do site.
 
-![image](https://user-images.githubusercontent.com/112404942/193150544-e7630ed8-40e4-4b65-b356-07f21725408b.png)
 
+![image](https://user-images.githubusercontent.com/112404942/193150851-8eed2ead-e34e-4e0d-9861-d49ee9a50103.png)
+Página Inicial da JoGames
+
+![image](https://user-images.githubusercontent.com/112404942/193151152-818d2cfe-bb16-4b50-a80f-0511b502c372.png)
+Página de Nossos Produtos
+
+![image](https://user-images.githubusercontent.com/112404942/193151364-146ed7dc-e53c-4852-a25b-d1c24940cb74.png)
+Página sobre Quem Somos
+
+![image](https://user-images.githubusercontent.com/112404942/193151491-3f656a9c-1720-4287-ae54-bbea236b8aff.png)
+Página de Login/Cadastro
