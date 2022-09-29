@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+
+body {
+    overflow-x: hidden;
+    background-color: #131313;
+}
+/* inicio nav */
+.logo_jogames {
+    width: 25vh;
+    height: 30vh;
+}
+
+.a_navbar {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.a_navbar:hover {
+    opacity: 0.7;
+}
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #23232e;
+    height: 8vh;
+    font-family: "Poppins", sans-serif;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+.mobile-menu {
+    display: none;
+    cursor: pointer;
+}
+
+.mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+    transition: 0.3s;
+}
+
+.nav-list.active {
+    transform: translateX(0);
+}
+
+.mobile-menu.active .line1 {
+    transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+.mobile-menu.active .line2 {
+   opacity: 0; 
+}
+
+.mobile-menu.active .line3 {
+    transform: rotate(45deg) translate(-5px, -7px);
+}
+/* fim nav */
+
+/* início página produtos */
+main {
+    padding: 0% 5%;
+    
+}
+
+
+
+.sessoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    
+}
+
+.esquerda {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.direita {
+    display: flex;
+    justify-content: center;
+}
+
+main .h1Produtos {
+    margin: 4rem 0 1rem 0;
+    font-size: 3rem;
+    color: whitesmoke;
+}
+
+#h1ProdutosJogo {
+    margin-top: 5%;
+}
+
+.jogos, .planos, .cartoes {
+    /* background-color: rgba(89, 82, 212, 0.3); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 40rem;
+    border-radius: 10px;
+    overflow: auto;
+    margin-bottom: 5%;
+}
+
+.jogos::-webkit-scrollbar, .planos::-webkit-scrollbar, .cartoes::-webkit-scrollbar {
+    position: relative;
+    height: 10px;
+    
+}
+
+.jogos::-webkit-scrollbar-corner, .planos::-webkit-scrollbar-corner, .cartoes::-webkit-scrollbar-corner {
+    display: none;
+}
+
+.jogos::-webkit-scrollbar-track, .planos::-webkit-scrollbar-track, .cartoes::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.jogos::-webkit-scrollbar-thumb, .planos::-webkit-scrollbar-thumb, .cartoes::-webkit-scrollbar-thumb {
+    background-color: rgb(232, 203, 192, 0.5);
+    border-radius: 5px;
+}
+
+.jogos .jogo {
+    margin: 0% 2% 0% 2%;
+}
+
+.jogos .jogo .imagem img {
+    width: 20rem;
+    height: 30rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+.jogos .jogo .imagem img:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.planos .plano {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 35rem;
+    height: 32rem;
+    justify-content: center;
+    margin: 0 2% 0 2%;
+    padding: 10px 1% 10px 1%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+.planos .plano img {
+    width: 25rem;
+    height: 22rem;
+}
+
+.planos .plano:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+#recruta {
+    background-color: rgb(231, 94, 3);
+}
+
+#mestre {
+    background-color: rgb(109, 109, 108);
+}
+
+#lenda {
+    background-color: rgba(209, 188, 3, 0.8);
+}
+
+.plano h2 {
+    color: whitesmoke;
+    font-size: 2rem;
+    
+}
+
+.plano p {
+    color: black;
+    font-size: 1.3rem;
+    padding: 2rem 7rem 1rem 6rem;
+}
+
+
+/* .planos .plano h2,
+p {
+    margin-top: 30px;
+}
+
+.planos .plano .titulo {
+    margin-top: 0px;
+} */
+
+.cartoes .cartao {
+    background-color: rgb(0, 0, 0, 0.3);
+    height: 250px;
+    display: flex;
+    align-items: center;
+    margin: 0 2% 0 2%;
+    padding: 10px 1% 10px 1%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+.cartoes .cartao:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.cartoes .cartao img {
+    height: 150px;
+    border-radius: 10px;
+}
+
+#ps {
+    margin: 0 10px;
+}
+/* fim página produtos */
+
+/* inicio footer */
+footer{
+   margin-top: 10%;
+    bottom: 0;
+    width: 100%;
+    background-color: #415aca;
+    padding: 50px;
+}
+
+.container-footer{
+    max-width: 1400px;
+    padding: 0 4%;
+    margin: auto;
+}
+
+.row-footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 22px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.footer-col ul{
+    list-style: none;    
+}
+
+.footer-col ul li{
+    margin-top: 10px 0;
+}
+
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+    color: #cecdce;
+    padding-left: 10px;
+}
+/* fim footer */
+
+@media (max-width: 1700px){
+    
+    .nav-list{
+        position: absolute;
+        z-index: 1;
+        top: 8vh;
+        right: 0;
+        width: 50vw;
+        height: 92vh;
+        background: #23232e;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+    }
+    .nav-list li {
+        margin-left: 0;
+        opacity: 0;
+    }
+    .mobile-menu{
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+
+    /* início página produtos */
+    .sessoes{
+        width: 90vw;
+    }
+
+    .esquerda {
+        display: block;
+    }
+    
+    .direita {
+        display: block;
+    }
+
+    .jogos, .planos, .cartoes {
+        flex-direction: column;
+    }
+
+    .jogos .jogo {
+        margin: 15px 0% 0 0%;
+    }
+    .planos .plano {
+        margin: 15px 0% 0 0%;
+    }
+    .cartoes .cartao {
+        margin: 15px 0% 0 0%;
+    }
+    
+    .jogos .jogo .imagem img {
+        height: 260px;
+        width: 190px;
+        border-radius: 10px;
+    }
+
+    .cartoes .cartao img {
+        height: 200px;
+        max-width: 180px;
+        border-radius: 10px;
+    }
+    /* fim página produtos */
+}
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+} 
