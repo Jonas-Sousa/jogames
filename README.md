@@ -34,3 +34,6 @@ https://www.egiftsbazaar.com/home/index.html
 
 <b>Áreas do Site</b><br/>
 Essa parte só poderá ser concluída após o término do projeto, visto que contém prints e descrições de cada área do site.
+
+![image](https://user-images.githubusercontent.com/112404942/193150544-e7630ed8-40e4-4b65-b356-07f21725408b.png)
+
