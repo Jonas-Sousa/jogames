@@ -301,32 +301,40 @@ footer{
     }
 
     section.images {
-        width: 70vw;
-        margin: -40rem 0 0 70rem;
+        width: 60vw;
+        margin: -35rem 0 0 70rem;
         
     }
     
     section.images img {
         width: 40%;
-        margin: 7rem 0 0 0;
+        margin: -6rem 0 0 0;
         
     }
 
     section.images .circle {
         position: absolute; 
-        height: 110%;
+        height: 100%;
         width: 100%;
         top: 0;
         left: 0;
         background: linear-gradient(45deg, #f8f4f2, #082ac0);
         clip-path: circle(40% at right 80%);
         z-index: -1;
-        margin-top: 26rem; 
+        
          
     }
+
+    footer{
+        margin-top: 10%;
+         bottom: 0;
+         width: 100%;
+         background-color: #415aca;
+         padding: 50px;
+     }
 }
 
-@media only screen and (max-width: 1700px) {
+@media only screen and (max-width: 1440px) {
     .nav-list{
         position: absolute;
         z-index: 1;
