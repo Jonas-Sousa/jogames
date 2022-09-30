@@ -1,5 +1,8 @@
 # Projeto Resilia - JoGames
 
+link do site: https://jonas-sousa.github.io/jogames/
+
+
 <b>Projeto Resilia</b><br/>
 O projeto “Jogames” foi criado a partir da proposta de projeto de conclusão do módulo I do curso de Desenvolvimento Web da Resilia Educação. 
 Fomos orientados a trabalhar em squads, visto que o método busca aproximar as dinâmicas de aula com a realidade profissional.</br>
